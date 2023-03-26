@@ -9,7 +9,7 @@ ARG VERSION
 ARG API_URL=\$\{MARKETPLACE_API_URL\}
 ARG NPM_INSTALL_TOKEN=\$\{NPM_INSTALL_TOKEN\}
 ARG PORT=9292
-ARG TARGET=https://github.com/microsoft/openpaimarketplace.git
+ARG TARGET=https://github.com/openxpu/openpaimarketplace.git
 
 ENV NODE_ENV=production \
     SERVER_PORT=${PORT} \
